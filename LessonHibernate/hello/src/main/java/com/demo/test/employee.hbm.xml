@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.demo.test.Hibernate.Employee" table="Employee_Table">
+        <id name="id">
+            <generator class="assigned"></generator>
+        </id>
+
+        <property name = "firstName"></property>
+        <property name = "lastName"></property>
+        <property name = "socialNumber"></property>
+        <property name = "workPhone"></property>
+        <property name = "homePhone"></property>
+        <property name = "email"></property>
+        <property name = "streetAddress"></property>
+        <property name = "aptNumber"></property>
+        <property name = "city"></property>
+        <property name = "state"></property>
+        <property name = "zip"></property>
+
+    </class>
+
+</hibernate-mapping>
